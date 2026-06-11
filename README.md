@@ -161,6 +161,25 @@ This project uses **PostgreSQL** as its database. Configuration is managed using
 | **Analytics Dashboard** | Interactive SVG donut charts for Status, City & State distributions |
 
 ---
+
+## 🧪 Running Tests
+
+```bash
+cd backend
+venv\Scripts\activate   # activate venv first
+python manage.py test
+```
+
+Expected output:
+```
+Found 5 test(s).
+.....
+Ran 5 tests in 0.049s
+OK
+```
+
+---
+
 ## 📡 API Endpoints
 
 | Method | Endpoint | Description |
